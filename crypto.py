@@ -109,7 +109,7 @@ def decrypt(infile, outfile, password, key_size=32, salt_marker=SALT_MARKER,
 
 def main(args=None):
 
-    ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    ap = argparse.ArgumentParser()
     ap.add_argument('-d', '--decrypt', action="store_true",
         help="Decrypt input file")
     ap.add_argument('-f', '--force', action="store_true",
