@@ -1,0 +1,3 @@
+Encryption: test/fichier100Mo.txt = 1.831816 sec
+Decryption: test/fichier100Mo.txt.enc = 3.827058 sec
+Encryption: test/test_movie.mkv = 51.400014 sec
